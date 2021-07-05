@@ -8,7 +8,6 @@ import PagesToCharge from './components/with_selecction.js';
 
 export default function Home() {
   const { query } = useRouter();
-  console.log("dato", query);
   return (
     <div className={styles.container}>
       <Head>
@@ -28,7 +27,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <span className={styles.logo}>
-            <Image src="/logo_em.svg" alt="Esquinero Mexicano Logo" width={200} height={35} />
+            <Image src="/logo_em.svg" alt="Esquinero Mexicano Logo" width={200} height={35}/>
           </span>
         </a>
       </footer>

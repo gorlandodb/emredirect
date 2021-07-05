@@ -7,7 +7,49 @@
   align-items: center;
   height: 100vh;
 }
+.container_index_search{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.index_page{
+  max-width: 33%;
+}
 
+.logo_container{
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.text_input_intructions{
+  min-width: 10%;
+  font-weight: 500;
+  margin: 5% 2% 1% 2%;
+  text-align: center;
+}
+
+.input_container{
+  display: flex;
+  justify-content: center;
+}
+
+.pdf_code {
+  border: none;
+  padding: 1% 2% 4% 2%;
+  text-transform: uppercase;
+  font-weight: 300;
+  font: 25pt consolas, monospace;
+  letter-spacing: 0.5ch;
+  text-align: center;
+  justify-content: center;
+}
+
+.pdf_code:focus {
+  outline: none;
+  color: black;
+}
 .main {
   padding: 5rem 0;
   flex: 1;
